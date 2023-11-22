@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>First Page</h1>
+        <h1>2</h1>
+        <a href="{% url 'page2' %}">go to second page</a>
+        <h1>3</h1>
+        <a href="{% url 'anything:page3' %}">go to third page</a>
+        <h1>4</h1>
+        <a href="{% url 'anything:page4' %}">go to last page</a>
+    </center>
+</body>
+</html>
